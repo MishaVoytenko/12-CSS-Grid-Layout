@@ -1,0 +1,76 @@
+/* font-family: 'Delius Unicase', cursive;
+font-family: 'Sono', sans-serif; */
+/* font-family: 'Roboto', sans-serif; */
+
+.body {
+  width: 970px;
+  margin: 0 auto;
+}
+
+.title {
+  font-family: Delius Unicase, cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 45px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #000000;
+  margin-top: 120px;
+  margin-bottom: 80px;
+}
+
+.container-architectural {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.Architectural-item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 20px;
+  position: relative;
+}
+
+.author {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: #ffffff;
+  z-index: 1;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+
+.date {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  color: #ffffff;
+  z-index: 1;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+.Architectural-item:nth-child(1) {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+}
+
+.Architectural-item:nth-child(1) {
+  grid-column: 2 / 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+.Architectural-item:nth-child(1) {
+}
+.Architectural-item:nth-child(1) {
+}
+.Architectural-item:nth-child(1) {
+}
+.Architectural-item:nth-child(1) {
+}
