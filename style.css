@@ -1,7 +1,3 @@
-/* font-family: 'Delius Unicase', cursive;
-font-family: 'Sono', sans-serif; */
-/* font-family: 'Roboto', sans-serif; */
-
 .body {
   width: 1170px;
   margin: 0 auto;
@@ -26,7 +22,7 @@ img {
   margin-bottom: 80px;
 }
 
-.blure::after {
+.blur::after {
   content: "";
   position: absolute;
   top: 0;
@@ -41,7 +37,7 @@ img {
   border-radius: 20px;
 }
 
-.blure:hover::after {
+.blur:hover::after {
   background: transparent;
 }
 
@@ -221,6 +217,7 @@ img {
   border-radius: 8px;
   border: none;
   display: none;
+  cursor: pointer;
 }
 
 .download {
@@ -236,6 +233,15 @@ img {
   display: none;
 }
 
-.blure:hover button {
+.blur:hover button {
   display: block;
+}
+
+.blur:hover img {
+  transform: scale(1.2);
+  transition: 1.5s;
+}
+
+.blur:hover {
+  overflow: hidden;
 }
